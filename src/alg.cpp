@@ -2,11 +2,9 @@
 
 int gcd(int a, int b) {
   while (b != a) {
-    if (a > b)
-      {
+    if (a > b) {
         a = a - b;
-      }
-      else {
+      } else {
         b = b - a;
       }
   }
